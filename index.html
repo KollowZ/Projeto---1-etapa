@@ -1,275 +1,491 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universo do Vôlei</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8" />
+  <title>Universo do Vôlei</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <div class="logo">
-        <img src="img/cabra_devs.png" alt="Logo Cabra Devs">
-    </div>
-
-    <nav>
-        <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#historia">História</a></li>
-            <li><a href="#tecnicas">Técnicas</a></li>
-            <li><a href="#competidores">Competidores</a></li>
-            <li><a href="#recordes">Ídolos & Recordes</a></li>
-            <li><a href="#noticias">Notícias</a></li>
-        </ul>
-    </nav>
+<!-- HEADER -->
+<header class="header">
+  <nav class="nav">
+    <a href="#">Início</a>
+    <a href="#">História</a>
+    <a href="#">Técnicas</a>
+    <a href="#">Regras do Vôlei</a>
+    <a href="#">Ídolos & Recordes</a>
+    <a href="#">Notícias</a>
+  </nav>
 </header>
 
-<main>
+<main class="container">
 
-<!-- INÍCIO -->
-<section id="inicio">
+  <section id="inicio" class="section-inicio">
+
+  <!-- TÍTULO -->
+  <div class="section-header">
     <h1>Bem-vindo ao Universo do Vôlei</h1>
-    <p>
-        Este site é dedicado ao vôlei, um dos esportes mais praticados e admirados do mundo.
-        Aqui você encontra história, técnicas, grandes atletas, recordes e as principais notícias.
-    </p>
-    <img src="img/1bacground_volei.png" alt="Quadra de vôlei">
-</section>
+  </div>
 
-<!-- HISTÓRIA -->
-<section id="historia">
+  <!-- TEXTO -->
+  <div class="inicio-texto">
+    <p>
+      O vôlei é mais do que um esporte: é paixão, trabalho em equipe e estratégia.
+      Neste site, você vai descobrir a história fascinante desse esporte que conquista
+      corações em todo o mundo, conhecer as técnicas fundamentais que fazem a diferença
+      em quadra, e se inspirar com os grandes ídolos que marcaram época.
+    </p>
+
+    <p>
+      Explore cada seção e mergulhe no universo vibrante do vôlei, desde suas origens
+      até as competições mais emocionantes da atualidade.
+    </p>
+  </div>
+
+  <!-- IMAGEM -->
+  <div class="inicio-imagem">
+    <img
+      src="https://wallpapers.com/images/hd/volleyball-ball-zig1ts8pu2cg97g8.jpg"
+      alt="Jogo de Vôlei"
+    />
+  </div>
+
+</section>
+<section id="historia" class="section-historia">
+
+  <!-- TÍTULO -->
+  <div class="section-header">
     <h2>História do Vôlei</h2>
+  </div>
+
+  <!-- TEXTO -->
+  <div class="historia-texto">
     <p>
-        O vôlei foi criado em 1895 por William G. Morgan, nos Estados Unidos, como uma alternativa
-        ao basquete. Com o passar dos anos, o esporte evoluiu e se espalhou pelo mundo.
+      O vôlei foi criado em 1895 por William G. Morgan, diretor de educação física
+      da Associação Cristã de Moços (ACM) em Holyoke, Massachusetts, Estados Unidos.
+      Morgan buscava criar um esporte menos intenso que o basquete, adequado para
+      pessoas de diferentes idades e condições físicas.
     </p>
 
-    <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Foto_Colorida_de_William_George_Morgan.jpg" alt="William G. Morgan">
-        <figcaption>Criador do voleibol</figcaption>
-    </figure>
+    <p>
+      Originalmente chamado de "Mintonette", o esporte rapidamente ganhou popularidade
+      e seu nome foi alterado para "volleyball" (voleibol), em referência à ação de
+      rebater a bola de um lado para o outro da rede.
+    </p>
 
     <p>
-        Em 1964, o vôlei entrou para os Jogos Olímpicos, consolidando-se como um esporte de alto nível.
-        No Brasil, ganhou destaque a partir do século XX, tornando-se referência mundial.
+      Ao longo do século XX, o vôlei se espalhou pelo mundo, tornando-se um esporte
+      olímpico em 1964, nos Jogos de Tóquio. Desde então, evoluiu constantemente,
+      com mudanças nas regras e no estilo de jogo, consolidando-se como um dos
+      esportes mais praticados e assistidos globalmente.
     </p>
+  </div>
+
+  <!-- IMAGEM + LEGENDA -->
+  <div class="historia-imagem">
+    <img
+      src="https://ligaescolar.com.br/wp-content/uploads/2023/02/What-Is-History-Of-Volleyball-1.jpg"
+      alt="História do Vôlei"
+    />
+    <p class="historia-legenda">
+      Partida na liga escolar brasileira por volta da decada de 20
+    </p>
+  </div>
+
 </section>
+<section id="tecnicas" class="section-tecnicas">
 
-<!-- TÉCNICAS -->
-<section id="tecnicas">
-    <h2>Técnicas do Vôlei</h2>
+  <!-- TÍTULO -->
+  <div class="section-header">
+    <h2>Técnicas Fundamentais</h2>
+  </div>
 
-    <div class="tecnicas">
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-cortada.png" alt="Ataque">
-            <figcaption><strong>Ataque:</strong> golpe ofensivo para marcar pontos.</figcaption>
-        </figure>
+  <!-- GRID -->
+  <div class="tecnicas-grid">
 
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-manchete.png" alt="Manchete">
-            <figcaption><strong>Manchete:</strong> usada na recepção e defesa.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-toque.png" alt="Toque">
-            <figcaption><strong>Toque:</strong> levantamento preciso para o ataque.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-peixinho.png" alt="Peixinho">
-            <figcaption><strong>Peixinho:</strong> defesa com mergulho.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-bloqueio.png" alt="Bloqueio">
-            <figcaption><strong>Bloqueio:</strong> impede o ataque adversário.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="img/VOLEI-SAQUE.png" alt="Saque">
-            <figcaption><strong>Saque:</strong> início da jogada.</figcaption>
-        </figure>
+    <!-- ATAQUE -->
+    <div class="tecnica-card">
+      <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-cortada.png" alt="Ataque" loading="lazy"/>
+      <div class="tecnica-content">
+        <h3>Ataque</h3>
+        <p>
+          Ataque ofensivo poderoso onde o jogador salta e golpeia a bola com força
+          em direção à quadra adversária.
+        </p>
+      </div>
     </div>
+
+    <!-- BLOQUEIO -->
+    <div class="tecnica-card">
+      <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-bloqueio.png" alt="Bloqueio" loading="lazy"/>
+      <div class="tecnica-content">
+        <h3>Bloqueio</h3>
+        <p>
+          Ação defensiva realizada próxima à rede para interceptar ou amortecer
+          o ataque adversário.
+        </p>
+      </div>
+    </div>
+
+    <!-- SAQUE -->
+    <div class="tecnica-card">
+      <img src="/img/VOLEI-SAQUE.png" alt="Saque"/>
+      <div class="tecnica-content">
+        <h3>Saque</h3>
+        <p>
+          Início da jogada onde o jogador arremessa a bola ao ar e a golpeia
+          para enviá-la à quadra adversária.
+        </p>
+      </div>
+    </div>
+
+    <!-- PEIXINHO -->
+    <div class="tecnica-card">
+      <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-peixinho.png" alt="Peixinho" loading="lazy"/>
+      <div class="tecnica-content">
+        <h3>Peixinho</h3>
+        <p>
+          Recurso utilizando quando nao se consegue chegar andando para pegar
+          a bola, então se mergulha.
+        </p>
+      </div>
+    </div>
+
+    <!-- MANCHETE -->
+    <div class="tecnica-card">
+      <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-manchete.png" alt="Manchete" loading="lazy"/>
+      <div class="tecnica-content">
+        <h3>Manchete</h3>
+        <p>
+          Fundamento defensivo executado com os antebraços unidos, usado para
+          receber saques e defender ataques.
+        </p>
+      </div>
+    </div>
+
+    <!-- TOQUE -->
+    <div class="tecnica-card">
+      <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-toque.png" alt="Toque" loading="lazy"/>
+      <div class="tecnica-content">
+        <h3>Toque</h3>
+        <p>
+          Fundamento realizado com as pontas dos dedos, principalmente usado
+          para levantamentos precisos.
+        </p>
+      </div>
+    </div>
+
+  </div>
 </section>
+<section id="competidores" class="section-competidores">
 
-<!-- GRANDES COMPETIDORES -->
-<section id="competidores">
-    <h2>Grandes Competidores</h2>
+  <!-- TÍTULO -->
+  <div class="section-header">
+    <h2>Regras do Vôlei</h2>
+  </div>
 
-    <figure>
-        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS_NHFQz28qZYfd4xWI6a14Q83zNK6QeHjm9TXJXHHPNs19xzLZKnp6DNpnCvQIFWXFFqxxnh7cwIrRvPA" alt="Karch Kiraly">
-        <figcaption>Karch Kiraly</figcaption>
-    </figure>
+  <!-- PRINCIPAIS REGRAS -->
+  <div class="regras-box">
+    <h3>Principais Regras</h3>
 
-    <div class="tabelinha">
-        <table>
+    <div class="regras-grid">
+
+      <div class="regra-card">
+        <h4>Equipes</h4>
+        <p>Cada equipe é composta por 6 jogadores em quadra e até 6 reservas.</p>
+      </div>
+
+      <div class="regra-card">
+        <h4>Pontuação</h4>
+        <p>
+          O jogo é disputado em sets de 25 pontos (15 no tie-break).
+          É necessário vencer por diferença mínima de 2 pontos.
+        </p>
+      </div>
+
+      <div class="regra-card">
+        <h4>Rotação</h4>
+        <p>
+          Os jogadores devem rotacionar no sentido horário quando a equipe
+          conquista o direito de sacar.
+        </p>
+      </div>
+
+      <div class="regra-card">
+        <h4>Toques</h4>
+        <p>
+          Cada equipe tem direito a no máximo 3 toques na bola (além do bloqueio).
+        </p>
+      </div>
+
+      <div class="regra-card">
+        <h4>Rede</h4>
+        <p>
+          A rede fica a 2,43m de altura para homens e 2,24m para mulheres.
+          Tocar na rede durante a jogada é falta.
+        </p>
+      </div>
+
+      <div class="regra-card">
+        <h4>Linha de Ataque</h4>
+        <p>
+          Jogadores de defesa não podem atacar à frente da linha de 3 metros.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- VÍDEO -->
+  <div class="video-box">
+    <h3>Vídeo Explicativo</h3>
+
+    <p>
+      Assista ao vídeo abaixo para entender melhor as regras oficiais do voleibol
+      e como elas são aplicadas durante as partidas profissionais.
+    </p>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/qV-IIOmGuR0?si=InC-keKbPAR7Cnm4"
+        title="Regras do Vôlei"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+</section>
+<section id="idolos" class="section-idolos">
+
+  <!-- TÍTULO -->
+  <div class="section-header">
+    <h2>Ídolos &amp; Recordes</h2>
+  </div>
+
+  <div class="idolos-lista">
+
+    <!-- KARCH KIRALY -->
+    <div class="idolo-card">
+      <h3>Karch Kiraly (EUA)</h3>
+
+      <div class="idolo-layout">
+        <div class="idolo-tabela-wrapper">
+          <table class="idolo-tabela">
             <thead>
-                <tr>
-                    <th>Categoria</th>
-                    <th>Ouro</th>
-                    <th>Prata</th>
-                    <th>Bronze</th>
-                    <th>Total</th>
-                </tr>
+              <tr>
+                <th>Competição</th>
+                <th>Medalhas</th>
+              </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Vôlei Indoor</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Vôlei de Praia</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>1</td>
-                </tr>
+              <tr>
+                <td>Ouro Olímpico (Indoor)</td>
+                <td class="medalhas">2</td>
+              </tr>
+              <tr class="linha-alternada">
+                <td>Ouro Olímpico (Praia)</td>
+                <td class="medalhas">1</td>
+              </tr>
+              <tr>
+                <td>Campeonatos Mundiais</td>
+                <td class="medalhas">2</td>
+              </tr>
             </tbody>
-        </table>
+          </table>
+        </div>
+
+        <div class="idolo-info">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDGbwetEoI6EbF-C0Xcd2k1pMuBB0-qJsVg&s"
+            alt="Karch Kiraly (EUA)"
+          />
+          <p>
+            Único atleta a vencer ouros olímpicos tanto no vôlei de quadra quanto
+            no vôlei de praia.
+          </p>
+        </div>
+
+      </div>
     </div>
-</section>
 
-<!-- ÍDOLOS E RECORDES -->
-<section id="recordes">
-    <h2>Ídolos e Recordes</h2>
+    <!-- FABIZINHA -->
+    <div class="idolo-card">
+      <h3>Fabizinha (Brasil)</h3>
 
-    <div class="tabelinha">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Campeonatos</th>
-                      <th><img src="img/Gold_medal.png" alt="Ouro" width="20"></th>
-                      <th><img src="img/Silver_medal.png" alt="Prata" width="20"></th>
-                      <th><img src="img/Bronze_medal.png" alt="Bronze" width="20"></th>
-                      <th><img src="img/GoldSilverBronze_medals.png" alt="Total" width="30"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Olímpiadas</td>
-                      <td>1</td>
-                      <td>2</td>
-                      <td>0</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Mundial</td>
-                        <td>3</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>VNL</td>
-                        <td>8</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>13</td>
-                      </tr>
-                      <tr>
-                        <td>Sul-Americano</td>
-                        <td>8</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>8</td>
-                      </tr>
-                    </tbody>
-                </table>
-                <figure><img src="https://static.gazetaesportiva.com/uploads/imagem/2016/12/23/00371085-715x1024.jpg" alt="Giba The Goat" width="150px"><figcaption>Gilberto Amauri Godoy Filho </figcaption></figure>
-              </div>
-              <div class="tabelinha">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Campeonatos</th>
-                      <th><img src="img/Gold_medal.png" alt="Ouro" width="20"></th>
-                      <th><img src="img/Silver_medal.png" alt="Prata" width="20"></th>
-                      <th><img src="img/Bronze_medal.png" alt="Bronze" width="20"></th>
-                      <th><img src="img/GoldSilverBronze_medals.png" alt="Total" width="30"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Olímpiadas</td>
-                      <td>1</td>
-                      <td>2</td>
-                      <td>0</td>
-                      <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Mundial</td>
-                        <td>3</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>VNL</td>
-                        <td>8</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>13</td>
-                      </tr>
-                      <tr>
-                        <td>Sul-Americano</td>
-                        <td>8</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>8</td>
-                      </tr>
-                    </tbody>
-                </table>
-                <figure><img src="https://static.gazetaesportiva.com/uploads/imagem/2016/12/23/00371085-715x1024.jpg" alt="Giba The Goat" width="150px"><figcaption>Gilberto Amauri Godoy Filho </figcaption></figure>
-              </div>
-</section>
+      <div class="idolo-layout">
 
-<!-- NOTÍCIAS -->
-<section id="noticias">
-    <h2>Técnicas do Vôlei</h2>
+        <div class="idolo-tabela-wrapper">
+          <table class="idolo-tabela">
+            <thead>
+              <tr>
+                <th>Competição</th>
+                <th>Medalhas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ouro Olímpico</td>
+                <td class="medalhas">2</td>
+              </tr>
+              <tr class="linha-alternada">
+                <td>Copa dos Campões</td>
+                <td class="medalhas">2</td>
+              </tr>
+              <tr>
+                <td>Grand Prix</td>
+                <td class="medalhas">5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-    <div class="noticias">
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-cortada.png" alt="Ataque">
-            <figcaption><strong>Ataque:</strong> golpe ofensivo para marcar pontos.</figcaption>
-        </figure>
+        <div class="idolo-info">
+          <img
+            src="https://pbs.twimg.com/media/DbZPTUHW0AAmOw4.jpg"
+            alt="Fabizinha (Brasil)"
+          />
+          <p>
+            Melhor libero do voleibol feminino, bicampeã olímpica com a seleção
+            brasileira.
+          </p>
+        </div>
 
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-manchete.png" alt="Manchete">
-            <figcaption><strong>Manchete:</strong> usada na recepção e defesa.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-toque.png" alt="Toque">
-            <figcaption><strong>Toque:</strong> levantamento preciso para o ataque.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-peixinho.png" alt="Peixinho">
-            <figcaption><strong>Peixinho:</strong> defesa com mergulho.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://arte.folha.uol.com.br/esporte/2016/que-esporte-e-esse/img/esportes/volei/volei-movimentos-bloqueio.png" alt="Bloqueio">
-            <figcaption><strong>Bloqueio:</strong> impede o ataque adversário.</figcaption>
-        </figure>
-
-        <figure>
-            <img src="https://webvolei.com.br/wp-content/uploads/2025/06/nikolov.webp" alt="Saque">
-            <figcaption><strong>Saque:</strong> início da jogada.</figcaption>
-        </figure>
+      </div>
     </div>
-</section>
 
+    <!-- MIREYA LUIS -->
+    <div class="idolo-card">
+      <h3>Mireya Luis (Cuba)</h3>
+
+      <div class="idolo-layout">
+
+        <div class="idolo-tabela-wrapper">
+          <table class="idolo-tabela">
+            <thead>
+              <tr>
+                <th>Competição</th>
+                <th>Medalhas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ouro Olímpico</td>
+                <td class="medalhas">3</td>
+              </tr>
+              <tr class="linha-alternada">
+                <td>Copa do Mundial</td>
+                <td class="medalhas">4</td>
+              </tr>
+              <tr>
+                <td>Pan-Americano</td>
+                <td class="medalhas">4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="idolo-info">
+          <img
+            src="https://www.olimpiadatododia.com.br/wp-content/uploads/2020/09/Mireya_Luis_Volei.jpg"
+            alt="Mireya Luis (Cuba)"
+          />
+          <p>
+            A melhor jogadora da história, detentora de 3 ouros olimpicos nas 3
+            olimpias que disputou.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="noticias" class="section-noticias">
+
+  <!-- TÍTULO -->
+  <div class="section-header">
+    <h2>Notícias Recentes</h2>
+  </div>
+
+  <div class="noticias-lista">
+
+    <!-- NOTÍCIA 1 -->
+    <div class="noticia-card">
+      <div class="noticia-layout">
+        <div class="noticia-imagem">
+          <img
+            src="https://webvolei.com.br/wp-content/uploads/2025/12/conegliano-Joao-Pires-Fotojump-gabi-joinha.jpg1_-616x482.webp"
+            alt="Gabi renova com o Conegliano até 2029"
+          />
+        </div>
+        <div class="noticia-conteudo">
+          <p class="noticia-data">21 de Janeiro, 2026</p>
+          <h3>Gabi renova com o Conegliano até 2029</h3>
+          <p class="noticia-resumo">
+            A passagem de Gabi pelo Conegliano ainda terá muitos capítulos. O clube
+            italiano anunciou, nesta quarta-feira (21/1), a renovação do contrato da
+            brasileira por mais três anos. O novo vínculo irá até a temporada 2028/2029.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTÍCIA 2 -->
+    <div class="noticia-card">
+      <div class="noticia-layout">
+        <div class="noticia-imagem">
+          <img
+            src="https://webvolei.com.br/wp-content/uploads/2026/01/novo-piso-quadra-Ginasio-Moringao-Emerson-Dias-1-845x475.webp"
+            alt="CBV anuncia venda de ingressos para fase final da Copa Brasil"
+          />
+        </div>
+        <div class="noticia-conteudo">
+          <p class="noticia-data">22 de Janeiro, 2026</p>
+          <h3>CBV anuncia venda de ingressos para fase final da Copa Brasil</h3>
+          <p class="noticia-resumo">
+            A Confederação Brasileira de Voleibol (CBV) abriu nesta quarta-feira (21/1)
+            a venda de ingressos para a fase final da Copa Brasil 2026. As semifinais e
+            finais da competição serão realizadas no Ginásio Moringão, em Londrina (PR),
+            que receberá tanto os jogos do torneio feminino quanto do masculino.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTÍCIA 3 -->
+    <div class="noticia-card">
+      <div class="noticia-layout">
+        <div class="noticia-imagem">
+          <img
+            src="https://webvolei.com.br/wp-content/uploads/2026/01/1000236924-845x475.webp"
+            alt="Adriano celebra vitória no retorno ao Taquaral"
+          />
+        </div>
+        <div class="noticia-conteudo">
+          <p class="noticia-data">23 de Janeiro, 2026</p>
+          <h3>Adriano celebra vitória no retorno ao Taquaral: “Jogar aqui é diferente”</h3>
+          <p class="noticia-resumo">
+            Na noite desta quarta-feira (21/1) a equipe campineira venceu o Viapol São José
+            por 3 sets a 0. O ponteiro Adriano, eleito o melhor em quadra e vencedor do
+            Troféu VivaVôlei, destacou a força do time quando atua em casa.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 </main>
-
-<footer>
-    <p>© 2025 Todos os direitos reservados a Cabra Devs.</p>
+<footer class="footer">
+  <div class="footer-container">
+    <p>
+      © 2026 Todos os direitos reservados ao Cabra Devs
+    </p>
+  </div>
 </footer>
+
 
 </body>
 </html>
